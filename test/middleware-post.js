@@ -314,8 +314,7 @@ tap.test('POST webhook with read callback', (t) => {
       t.end()
     })
   })
-
-  t.tearDown(() => {
+t.tearDown(() => {
     server.close()
   })
 })
