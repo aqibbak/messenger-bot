@@ -4,7 +4,6 @@ const qs = require('querystring')
 const EventEmitter = require('events').EventEmitter
 const request = require('request-promise')
 const crypto = require('crypto')
-
 class Bot extends EventEmitter {
   constructor (opts) {
     super()
