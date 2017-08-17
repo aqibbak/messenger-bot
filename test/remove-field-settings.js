@@ -15,8 +15,7 @@ tap.test('remove field settings - get started button - successful request', (t) 
   let response = {
     result: 'Successfully deleted get started button'
   }
-
-  nock('https://graph.facebook.com')
+   nock('https://graph.facebook.com')
     .delete('/v2.6/me/messenger_profile', payload)
     .query({
       access_token: 'foo'
