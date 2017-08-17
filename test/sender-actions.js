@@ -4,7 +4,6 @@ const http = require('http')
 const request = require('request')
 const nock = require('nock')
 const Bot = require('../')
-
 tap.test('actions.setTyping(true)', (t) => {
   let bot = new Bot({
     token: 'foo'
